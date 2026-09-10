@@ -1,0 +1,39 @@
+{
+  "name": "jay-plugins",
+  "description": "Frontend and creative-coding plugins for Claude Code \u2014 correct PixiJS v8, plus accessibility, modern CSS, browser-verified performance, and 3D asset optimization.",
+  "owner": {
+    "name": "jay"
+  },
+  "plugins": [
+    {
+      "name": "pixijs",
+      "description": "PixiJS v8 development for animated websites and HTML5 games. Enforces the v8 API (async init, shape-then-style Graphics, Assets preloading) and bundles patterns for rendering, animation, input, cameras, filters, React integration, and performance.",
+      "category": "development",
+      "source": {
+        "source": "npm",
+        "package": "pixijs-claude-plugin",
+        "version": "^0.1.0"
+      },
+      "homepage": "https://github.com/Jay-webmob/claude-plugins/tree/main/plugins/pixijs",
+      "version": "0.1.0",
+      "author": {
+        "name": "jay"
+      }
+    },
+    {
+      "name": "web-craft",
+      "description": "Accessibility, modern CSS, browser-verified performance, motion, and 3D asset optimization. Owns canvas/WebGL accessibility and GPU/asset budgets \u2014 the areas general design tools do not cover.",
+      "category": "development",
+      "source": {
+        "source": "npm",
+        "package": "web-craft-claude-plugin",
+        "version": "^0.1.0"
+      },
+      "homepage": "https://github.com/Jay-webmob/claude-plugins/tree/main/plugins/web-craft",
+      "version": "0.1.0",
+      "author": {
+        "name": "jay"
+      }
+    }
+  ]
+}

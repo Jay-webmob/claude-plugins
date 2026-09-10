@@ -1,0 +1,22 @@
+{
+  "name": "pixijs",
+  "displayName": "PixiJS",
+  "version": "0.1.0",
+  "description": "PixiJS v8 development for animated websites and HTML5 games. Enforces the v8 API (async init, shape-then-style Graphics, Assets preloading) and bundles patterns for rendering, animation, input, cameras, filters, React integration, and performance.",
+  "author": {
+    "name": "jay"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pixijs",
+    "pixi",
+    "webgl",
+    "webgpu",
+    "canvas",
+    "2d",
+    "game",
+    "animation",
+    "frontend"
+  ],
+  "commands": "./commands"
+}

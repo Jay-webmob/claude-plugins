@@ -1,0 +1,39 @@
+{
+  "name": "web-craft-claude-plugin",
+  "version": "0.1.0",
+  "description": "Claude Code plugin for accessibility, modern CSS, browser-verified performance, motion, and 3D asset optimization.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "claude-code",
+    "claude-plugin",
+    "accessibility",
+    "wcag",
+    "a11y",
+    "css",
+    "responsive",
+    "core-web-vitals",
+    "three.js",
+    "gltf"
+  ],
+  "scripts": {
+    "validate": "claude plugin validate . --strict",
+    "details": "claude plugin details web-craft",
+    "refs": "node scripts/pull-refs.mjs",
+    "refs:check": "node scripts/pull-refs.mjs --check",
+    "test": "npm run validate && npm run refs:check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay-webmob/claude-plugins.git",
+    "directory": "plugins/web-craft"
+  },
+  "homepage": "https://github.com/Jay-webmob/claude-plugins/tree/main/plugins/web-craft",
+  "bugs": {
+    "url": "https://github.com/Jay-webmob/claude-plugins/issues"
+  },
+  "author": "Jay",
+  "publishConfig": {
+    "access": "public"
+  }
+}

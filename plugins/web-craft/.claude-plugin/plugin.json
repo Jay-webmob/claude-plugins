@@ -1,0 +1,26 @@
+{
+  "name": "web-craft",
+  "displayName": "Web Craft",
+  "version": "0.1.0",
+  "description": "Accessibility, modern CSS, browser-verified performance, motion, and 3D asset optimization for the web. Owns canvas/WebGL accessibility and GPU/asset budgets — the areas general design tools do not cover. Companion to the pixijs plugin.",
+  "author": {
+    "name": "jay"
+  },
+  "license": "MIT",
+  "keywords": [
+    "accessibility",
+    "wcag",
+    "a11y",
+    "canvas",
+    "webgl",
+    "css",
+    "responsive",
+    "performance",
+    "core-web-vitals",
+    "three.js",
+    "gltf",
+    "motion",
+    "frontend"
+  ],
+  "commands": "./commands"
+}

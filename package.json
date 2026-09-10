@@ -1,0 +1,18 @@
+{
+  "name": "jay-claude-plugins",
+  "version": "0.1.0",
+  "description": "Monorepo for Claude Code plugins: pixijs and web-craft.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "plugins/*"
+  ],
+  "scripts": {
+    "validate": "claude plugin validate . --strict && claude plugin validate plugins/pixijs --strict && claude plugin validate plugins/web-craft --strict",
+    "refs:check": "npm --workspace web-craft-claude-plugin run refs:check",
+    "publish:dry": "npm publish --workspace pixijs-claude-plugin --dry-run && npm publish --workspace web-craft-claude-plugin --dry-run",
+    "publish:all": "npm publish --workspace pixijs-claude-plugin --access public && npm publish --workspace web-craft-claude-plugin --access public",
+    "test": "npm run validate && npm run refs:check"
+  }
+}
